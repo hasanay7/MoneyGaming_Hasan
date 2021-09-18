@@ -4,6 +4,7 @@ package com.moneygaming.utilities;
         import org.openqa.selenium.WebDriver;
         import org.openqa.selenium.chrome.ChromeDriver;
         import org.openqa.selenium.firefox.FirefoxDriver;
+        import org.openqa.selenium.opera.OperaDriver;
 
 public class WebDriverFactory {
     // Task: write a static method that takes a string parameter
@@ -17,9 +18,9 @@ public class WebDriverFactory {
         WebDriver driver = null;
 
         switch (browserType.toLowerCase()) {
-            case "chrome":
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+            case "opera":
+                WebDriverManager.operadriver().setup();
+                driver = new OperaDriver();
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
