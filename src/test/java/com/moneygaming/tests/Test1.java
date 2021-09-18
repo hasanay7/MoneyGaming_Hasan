@@ -19,6 +19,8 @@ public class Test1 {
         driver.manage().window().maximize();
         driver.get("https://moneygaming.qa.gameaccount.com/sign-up.shtml");
 
+        //https://motley-walkover-208.notion.site/UI-Test-Automation-EU6_Week3_and_4_Notes-bf73b735a68d43c69e6db8f461bc38fb
+
     }
 
 
